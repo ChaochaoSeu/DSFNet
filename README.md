@@ -64,7 +64,7 @@ UPLOAD.md              GitHub upload instructions with Git LFS
 THIRD_PARTY_NOTICES.md  Framework attribution and license scope
 ```
 
-See [datasets/README.md](datasets/README.md) for shapes, resolutions, feature layout, and data handling. See [UPLOAD.md](UPLOAD.md) for uploading this folder to a new GitHub repository.
+See [datasets/README.md](datasets/README.md) for shapes, resolutions, feature layout, and data handling.
 
 ## Implementation details
 
