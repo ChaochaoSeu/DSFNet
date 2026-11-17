@@ -15,7 +15,6 @@ Binary files are tracked with Git LFS. `manifest.json` records the byte size and
 | MetroFlow | 10 | 7044 x 302 x 14 | 114.31 |
 | NJRC_10min | 10 | 58032 x 36 x 28 | 223.16 |
 | NJRC_15min | 15 | 38688 x 36 x 28 | 148.78 |
-| NJRC_3min | 3 | 193440 x 36 x 28 | 743.83 |
 | NJRC_5min | 5 | 116064 x 36 x 28 | 446.30 |
 | NYC | 30 | 4368 x 98 x 9 | 14.73 |
 | PEMS03 | 5 | 26208 x 358 x 4 | 143.65 |
