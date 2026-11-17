@@ -1,0 +1,44 @@
+# Python and development environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Local editor settings, credentials, and machine configuration
+.idea/
+.vscode/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+
+# Training outputs and local analysis
+checkpoints*/
+runs/
+logs/
+results/
+*.pt
+*.pth
+*.ckpt
+*.log
+events.out.tfevents.*
+test_results.npz
+
+# Raw records and local site metadata are not part of this release
+datasets/raw_data/
+datasets/*.xlsx
+datasets/*.csv
+*.zip

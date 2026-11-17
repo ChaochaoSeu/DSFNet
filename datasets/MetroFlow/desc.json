@@ -1,0 +1,59 @@
+{
+    "name": "MetroFlow",
+    "domain": [
+        "inFlow",
+        "outFlow",
+        "CinFlow",
+        "HBOinFlow",
+        "NHBinFlow",
+        "CoutFlow",
+        "HBOoutFlow",
+        "NHBoutFlow",
+        "temperature_2m",
+        "rain",
+        "wind_speed_10m"
+    ],
+    "shape": [
+        7044,
+        302,
+        14
+    ],
+    "num_time_steps": 7044,
+    "num_nodes": 302,
+    "num_features": 14,
+    "feature_description": [
+        "inFlow",
+        "outFlow",
+        "CinFlow",
+        "HBOinFlow",
+        "NHBinFlow",
+        "CoutFlow",
+        "HBOoutFlow",
+        "NHBoutFlow",
+        "temperature_2m",
+        "rain",
+        "wind_speed_10m",
+        "time of day",
+        "day of week",
+        "is workday"
+    ],
+    "has_graph": true,
+    "frequency (minutes)": 10,
+    "regular_settings": {
+        "INPUT_LEN": 12,
+        "OUTPUT_LEN": 12,
+        "TRAIN_VAL_TEST_RATIO": [
+            0.6,
+            0.2,
+            0.2
+        ],
+        "NORM_EACH_CHANNEL": true,
+        "RESCALE": true,
+        "METRICS": [
+            "MAE",
+            "RMSE",
+            "MAPE"
+        ],
+        "NULL_VAL": 0.0
+    }
+}

@@ -1,0 +1,157 @@
+{
+  "format": "DSFNet processed datasets",
+  "dtype": "float32",
+  "layout": "C order: time, node, feature",
+  "files": [
+    {
+      "path": "datasets/MetroFlow/data.dat",
+      "bytes": 119128128,
+      "sha256": "8f0f898dc62edd4adac8448434477794e725c4661805669a6ba31e6f2d04ea59"
+    },
+    {
+      "path": "datasets/MetroFlow/desc.json",
+      "bytes": 1211,
+      "sha256": "02bf64de7616d44936906631101ee7b09dfbce50ae7da61a16f9a7b5588c9bfe"
+    },
+    {
+      "path": "datasets/MetroFlow/adj_mx.pkl",
+      "bytes": 729796,
+      "sha256": "de96ea98d42553d556b5a778bc6555c4d60a037df6b6fb9e73d0e4d0338082d5"
+    },
+    {
+      "path": "datasets/NJRC_3min/data.dat",
+      "bytes": 779950080,
+      "sha256": "6b47e60d4617dda428d7bc0763ec77aab79a362302b0a28e3e40dd376514a4b3"
+    },
+    {
+      "path": "datasets/NJRC_3min/desc.json",
+      "bytes": 2032,
+      "sha256": "cf91f27ab0a976a929364d74ad1c8a5b5e3e3b17620be867859ee41fbcf83b88"
+    },
+    {
+      "path": "datasets/NJRC_3min/adj_mx.pkl",
+      "bytes": 10521,
+      "sha256": "19a86ae9f29296ac18162dc58b277a255895404b59133880e13ced2d6f5f373a"
+    },
+    {
+      "path": "datasets/NJRC_5min/data.dat",
+      "bytes": 467970048,
+      "sha256": "2454987cc7e2bc817228b8a36ee18b1fc52a5ca756109d5c2647b8ad72e904af"
+    },
+    {
+      "path": "datasets/NJRC_5min/desc.json",
+      "bytes": 2032,
+      "sha256": "78e4f963b58b5de989a1d7a5d2ab759ce8e1ea17af48b506713fa90368571804"
+    },
+    {
+      "path": "datasets/NJRC_5min/adj_mx.pkl",
+      "bytes": 10521,
+      "sha256": "19a86ae9f29296ac18162dc58b277a255895404b59133880e13ced2d6f5f373a"
+    },
+    {
+      "path": "datasets/NJRC_10min/data.dat",
+      "bytes": 233985024,
+      "sha256": "84b6061e578ec5b841af2e205ba9f77d7f818abad8f3f1744fcfed4f2262712a"
+    },
+    {
+      "path": "datasets/NJRC_10min/desc.json",
+      "bytes": 2031,
+      "sha256": "e4a89d5c10fc6343283900aca97969dbc180e7705640bb2f530a875e7d80ad87"
+    },
+    {
+      "path": "datasets/NJRC_10min/adj_mx.pkl",
+      "bytes": 10521,
+      "sha256": "19a86ae9f29296ac18162dc58b277a255895404b59133880e13ced2d6f5f373a"
+    },
+    {
+      "path": "datasets/NJRC_15min/data.dat",
+      "bytes": 155990016,
+      "sha256": "58f631d138049d85c6483ee4f0b8dc1ffada8d4fc3e66d3a8fecb2f1d9fb6fc0"
+    },
+    {
+      "path": "datasets/NJRC_15min/desc.json",
+      "bytes": 2031,
+      "sha256": "f2fd6815f00aceb746dc48880e433c62286d487cb57b18511f604fd14a9d1f5a"
+    },
+    {
+      "path": "datasets/NJRC_15min/adj_mx.pkl",
+      "bytes": 10521,
+      "sha256": "19a86ae9f29296ac18162dc58b277a255895404b59133880e13ced2d6f5f373a"
+    },
+    {
+      "path": "datasets/NYC/data.dat",
+      "bytes": 15410304,
+      "sha256": "04bf89582c5e718cf941ae7aa9c248cd3ce06bad27c8ac6377a9f7546a3774a2"
+    },
+    {
+      "path": "datasets/NYC/desc.json",
+      "bytes": 1007,
+      "sha256": "a3f4def74b347921505d51aef99c212b46eb9950d082dfa2f8f82cd3de5b8d7d"
+    },
+    {
+      "path": "datasets/NYC/adj_mx.pkl",
+      "bytes": 38569,
+      "sha256": "a2110d5f95f96fb6a53e3d75a5768e25736e9d1fe20a4f45afd2f652e627f117"
+    },
+    {
+      "path": "datasets/PEMS03/data.dat",
+      "bytes": 150119424,
+      "sha256": "a8ef4acc4334c1efcc5734fcc6ba81c59874af4f88a4468fb17ab440245d9111"
+    },
+    {
+      "path": "datasets/PEMS03/desc.json",
+      "bytes": 757,
+      "sha256": "2142d5fcb7ea87471e9f1fcb323d814ec0fa5b68967be3c33efb72e2934e4a46"
+    },
+    {
+      "path": "datasets/PEMS03/adj_mx.pkl",
+      "bytes": 512820,
+      "sha256": "7e4ad2d33cb66c075337759d80c6685b397cc0b7e5721af4e0f1b258f3d886b0"
+    },
+    {
+      "path": "datasets/SZparking_5min/data.dat",
+      "bytes": 157852800,
+      "sha256": "ee7011db5b010ede16912fd7c778cae23f4dffa5e981f74253e47fa71813040f"
+    },
+    {
+      "path": "datasets/SZparking_5min/desc.json",
+      "bytes": 1859,
+      "sha256": "650b899ab88c05ed2d53fb8936b78830dc9f18e1eeb0617a922e22e94ebc7eb6"
+    },
+    {
+      "path": "datasets/SZparking_5min/adj_mx.pkl",
+      "bytes": 285930,
+      "sha256": "623b54412a593ab0dc5e38110ac2b5791c8d92d34d57b902521b3f1ecc13f4ea"
+    },
+    {
+      "path": "datasets/SZparking_10min/data.dat",
+      "bytes": 78926400,
+      "sha256": "6e6c4a64e085b0442e8959c0f58ee4b1a87841ef89ab738ca58b85e4fa4d7450"
+    },
+    {
+      "path": "datasets/SZparking_10min/desc.json",
+      "bytes": 1860,
+      "sha256": "476ab2bb3096dec1d908c60b60fdde37b92e67498e61085c2addabe936c071eb"
+    },
+    {
+      "path": "datasets/SZparking_10min/adj_mx.pkl",
+      "bytes": 285930,
+      "sha256": "623b54412a593ab0dc5e38110ac2b5791c8d92d34d57b902521b3f1ecc13f4ea"
+    },
+    {
+      "path": "datasets/SZparking_15min/data.dat",
+      "bytes": 52617600,
+      "sha256": "691e21a7b4c7dda9a5d4cd920247c0f927767d71316c0364981e1661bba50108"
+    },
+    {
+      "path": "datasets/SZparking_15min/desc.json",
+      "bytes": 1860,
+      "sha256": "b38257e7c89a42e1811b6551e693463b2731bb1f6d070a8f0d01d8ef0da3d1de"
+    },
+    {
+      "path": "datasets/SZparking_15min/adj_mx.pkl",
+      "bytes": 285930,
+      "sha256": "623b54412a593ab0dc5e38110ac2b5791c8d92d34d57b902521b3f1ecc13f4ea"
+    }
+  ]
+}

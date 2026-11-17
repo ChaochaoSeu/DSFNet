@@ -1,0 +1,81 @@
+{
+    "name": "SZparking",
+    "domain": [
+        "entry_by_enter_time",
+        "entry_count_FV",
+        "entry_count_NEV",
+        "entry_count_local",
+        "entry_count_nonlocal",
+        "exit_by_exit_time",
+        "exit_count_FV",
+        "exit_count_NEV",
+        "exit_count_local",
+        "exit_count_nonlocal",
+        "used_stalls_timeseries",
+        "unused_stalls_timeseries",
+        "PRCP",
+        "QAIR",
+        "PAIR",
+        "SWDN",
+        "TAIR",
+        "WIND",
+        "LON",
+        "LAT",
+        "type",
+        "total_spaces"
+    ],
+    "shape": [
+        4176,
+        189,
+        25
+    ],
+    "num_time_steps": 4176,
+    "num_nodes": 189,
+    "num_features": 25,
+    "feature_description": [
+        "entry_by_enter_time",
+        "entry_count_FV",
+        "entry_count_NEV",
+        "entry_count_local",
+        "entry_count_nonlocal",
+        "exit_by_exit_time",
+        "exit_count_FV",
+        "exit_count_NEV",
+        "exit_count_local",
+        "exit_count_nonlocal",
+        "used_stalls_timeseries",
+        "unused_stalls_timeseries",
+        "PRCP",
+        "QAIR",
+        "PAIR",
+        "SWDN",
+        "TAIR",
+        "WIND",
+        "LON",
+        "LAT",
+        "type",
+        "total_spaces",
+        "time of day",
+        "day of week",
+        "is_holiday"
+    ],
+    "has_graph": true,
+    "frequency (minutes)": 10,
+    "regular_settings": {
+        "INPUT_LEN": 12,
+        "OUTPUT_LEN": 12,
+        "TRAIN_VAL_TEST_RATIO": [
+            0.6333333333333333,
+            0.13333333333333333,
+            0.23333333333333334
+        ],
+        "NORM_EACH_CHANNEL": true,
+        "RESCALE": true,
+        "METRICS": [
+            "MAE",
+            "RMSE",
+            "MAPE"
+        ],
+        "NULL_VAL": 0.0
+    }
+}

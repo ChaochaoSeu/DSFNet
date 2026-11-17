@@ -1,0 +1,49 @@
+{
+    "name": "NYC",
+    "domain": [
+        "Bike Total",
+        "Taxi Total",
+        "Bike Inflow",
+        "Bike Outflow",
+        "Taxi Inflow",
+        "Taxi Outflow"
+    ],
+    "shape": [
+        4368,
+        98,
+        9
+    ],
+    "num_time_steps": 4368,
+    "num_nodes": 98,
+    "num_features": 9,
+    "feature_description": [
+        "Bike Total",
+        "Taxi Total",
+        "Bike Inflow",
+        "Bike Outflow",
+        "Taxi Inflow",
+        "Taxi Outflow",
+        "time of day",
+        "day of week",
+        "is_workday"
+    ],
+    "has_graph": true,
+    "frequency (minutes)": 30,
+    "regular_settings": {
+        "INPUT_LEN": 12,
+        "OUTPUT_LEN": 12,
+        "TRAIN_VAL_TEST_RATIO": [
+            0.6,
+            0.2,
+            0.2
+        ],
+        "NORM_EACH_CHANNEL": true,
+        "RESCALE": true,
+        "METRICS": [
+            "MAE",
+            "RMSE",
+            "MAPE"
+        ],
+        "NULL_VAL": 0.0
+    }
+}
