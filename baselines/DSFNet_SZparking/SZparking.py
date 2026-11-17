@@ -136,20 +136,20 @@ CFG.TRAIN.CLIP_GRAD_PARAM = {
 
 # Train data loader settings
 CFG.TRAIN.DATA = EasyDict()
-CFG.TRAIN.DATA.BATCH_SIZE = 16
+CFG.TRAIN.DATA.BATCH_SIZE = 64
 CFG.TRAIN.DATA.SHUFFLE = True
 
 ############################## Validation Configuration ##############################
 CFG.VAL = EasyDict()
 CFG.VAL.INTERVAL = 1
 CFG.VAL.DATA = EasyDict()
-CFG.VAL.DATA.BATCH_SIZE = 16
+CFG.VAL.DATA.BATCH_SIZE = 64
 
 ############################## Test Configuration ##############################
 CFG.TEST = EasyDict()
 CFG.TEST.INTERVAL = 1
 CFG.TEST.DATA = EasyDict()
-CFG.TEST.DATA.BATCH_SIZE = 16
+CFG.TEST.DATA.BATCH_SIZE = 64
 
 ############################## Evaluation Configuration ##############################
 
